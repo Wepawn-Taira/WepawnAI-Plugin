@@ -1,0 +1,18 @@
+# 대용량 바이너리 및 AI 모델 파일 제외
+bin/
+models/
+
+# 마스터 로컬 세션 및 스크래핑 부산물 제외
+dump*.html
+_counselor_kb.txt
+bin/portable_python/browser_profile/
+
+# 파이썬 캐시 및 가상환경
+__pycache__/
+*.pyc
+.venv/
+
+# 환경 변수·키(개인정보/비밀 유출 방지)
+.env
+.env.*
+!.env.example
